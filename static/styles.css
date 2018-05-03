@@ -1,0 +1,112 @@
+body{
+    width:auto;
+    height: auto;
+    margin: 10px 10px 10px 10px;
+    background-color: #787878;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+nav{
+padding-bottom: 20px;
+}
+
+.row-padding{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:auto;
+    width:100%;
+
+}
+
+.center_div{
+    margin: 0 auto;
+    width:50% /* value of your choice which suits your alignment */
+}
+
+
+.row{
+    overflow: hidden;
+}
+
+.col-height-adjust{
+    height: 100%;
+}
+
+
+.row-height-adjust{
+    height:314px;
+}
+
+
+.text-edit-menu{
+    color:white;
+}
+
+.container1{
+display: flex;
+flex-wrap: wrap;
+}
+
+
+
+.bigbox{
+    margin: 50px 250px 50px 250px;
+    border-radius: 50px;
+    border: 2px solid #202020;
+    background: #FFFF99;
+    background-position: left top;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    marging: auto;
+    align:center;
+}
+
+.paddin{
+    border-radius: 25px;
+    border: 2px solid #202020;
+    background: #480000;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    text-align:center;
+}
+
+
+
+h1{
+color:black;
+}
+
+.anchor-color{
+    color:white;
+}
+
+.anchor-heading{
+    color: #480000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*For Devices with smaller width*/
+
+@media screen and (max-width: 575px){
+    body{
+        width:auto;
+
+        background-color: #787878;
+        background-image: url('mobile_background.png');
+        background-repeat: repeat;
+        background-size: auto;
+    }
+
+
+
+
+}
